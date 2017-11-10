@@ -4,9 +4,11 @@ public class Hobby {
     float weight;
     double size;
 
-    Hobby(String name, int age) {
+    Hobby(String name, int age, float weight, double size) {
         this.name = name;
         this.age = age;
+        this.weight = weight;
+        this.size = size;
     }
 
     public double getSize() {
@@ -17,11 +19,11 @@ public class Hobby {
         this.size = size;
     }
 
-    public float getWeite() {
+    public float getWeight() {
         return weight;
     }
 
-    public void setWeite(float weight) {
+    public void setWeight(float weight) {
         this.weight = weight;
     }
 
